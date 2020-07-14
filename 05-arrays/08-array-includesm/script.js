@@ -24,7 +24,7 @@
             console.log("pas trouver");
         }
         else{
-            console.log("apple se trouve a l index"+ i) ;
+            console.log("apple se trouve a l index"+ i);
         }
     });
 })();
