@@ -18,5 +18,13 @@
     ];
 
     // your code here
-
+    document.getElementById('run').addEventListener('click', () => {
+        let i = fruits.indexOf("apple");
+        if(i == -1){
+            console.log("pas trouver");
+        }
+        else{
+            console.log("apple se trouve a l index"+ i) ;
+        }
+    });
 })();
