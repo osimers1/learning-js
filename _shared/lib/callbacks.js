@@ -29,8 +29,8 @@
             }
             next(
                 null,
-                Array.from(new Array(utils.getRandomInt(5, 15)).keys()).map(
-                    id => ({id, name: utils.generateName()}),
+                    Array.from(new Array(utils.getRandomInt(5, 15)).keys()).map(
+                        id => ({id, name: utils.generateName()}),
                 ),
             );
         });

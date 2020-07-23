@@ -10,9 +10,9 @@
                     if(error)
                         console.error(error);
                     else
-                        console(comment);
-                })
+                        console.log(comment);
+                });
             });
-        })
+        });
     });
 })();
